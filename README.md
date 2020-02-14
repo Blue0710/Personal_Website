@@ -1,6 +1,6 @@
 # Personal Website
 
-Simple personal website built with Python and [Flask](http://flask.pocoo.org/).
+Personal website built with Python and [Flask](http://flask.pocoo.org/).
 The deploy is done with [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/) and [Netlify](https://www.netlify.com/).
 
 ## Development
@@ -8,7 +8,7 @@ The deploy is done with [Frozen-Flask](https://pythonhosted.org/Frozen-Flask/) a
 If you install new packages, remember to update `requirements.txt`:
 
 ```sh
-pip freeze > requirements.txt
+pipenv freeze > requirements.txt
 ```
 
 ## Deployment
@@ -19,5 +19,5 @@ pip freeze > requirements.txt
 
 ### Netlify settings
 
-* Build command: `python freeze.py`
+* Build command: `pipenv run freeze.py`
 * Publish directory: `build`
