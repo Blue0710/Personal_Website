@@ -1,7 +1,8 @@
-Click==7.0
-Flask==1.0.2
-Frozen-Flask==0.15
+-i https://pypi.org/simple/
+click==7.0
+flask==1.0.2
+frozen-flask==0.15
 itsdangerous==1.1.0
-Jinja2==2.10
-MarkupSafe==1.1.0
-Werkzeug==0.14.1
+jinja2==2.10
+markupsafe==1.1.0
+werkzeug==0.15.3
