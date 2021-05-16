@@ -95,9 +95,41 @@ h1, h2, h3, h4, h5, h6 {
   padding: 2.5rem 0;
   color: #727272;
   text-align: center;
-  background-color: #f9f9f9;
+  background-color: #7fb1b9;
   border-top: .05rem solid #e5e5e5;
 }
 .blog-footer p:last-child {
   margin-bottom: 0;
+}
+
+.social-icon {
+  margin-top: 60px;
+  padding-right: 25px;
+  float: left;
+  border-bottom: 0px none #000;
+}
+
+body  {
+  background-color: #e0e7ff !important;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  
+}
+/* 
+#bg-blue{
+  left:0;
+  object-fit: cover;
+} */
+
+
+#bg-blue {
+  /* The image used */
+  background-image: url("Sun.JPG");
+  left:0;
+  /* Center and scale the image nicely */
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain !important ;
 }
