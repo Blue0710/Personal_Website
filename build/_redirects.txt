@@ -1,0 +1,6 @@
+# Redirects from what the browser requests to what we serve
+blog.css              blog.css
+../Sun.jpg            https://i.imgur.com/FUMJ4CG.jpg
+../Data_science.jpg   https://i.imgur.com/VRpfpjs.jpg
+../Communication.jpg  https://i.imgur.com/Cjh3tF8.jpg
+../The_Light.jpg      https://i.imgur.com/O1RZmF8.jpg
