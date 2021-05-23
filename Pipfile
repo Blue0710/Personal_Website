@@ -7,6 +7,7 @@ PIPENV_IGNORE_VIRTUALENVS=1
 [dev-packages]
 
 [packages]
+
 click ="7.0"
 itsdangerous ="1.1.0"
 Flask ="1.0.2"
@@ -18,4 +19,6 @@ Werkzeug = "0.15.3"
 
 
 [requires]
+PIPENV_IGNORE_VIRTUALENVS=1
+
 python_version = "3.7"
